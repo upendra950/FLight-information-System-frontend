@@ -1,0 +1,92 @@
+<div class="home">
+    <!-- <header >
+        <nav>
+          <ul class="list1">
+          <li><a routerLink="/home">Home</a></li> 
+          <li><a  routerLink="/user">User</a></li>
+            <li><a routerLink="/admin"> Admin</a></li>
+            <li><a routerLink="/support">Support</a></li>
+          
+        </ul>
+        </nav></header>  -->
+    <!-- <div class="logo">Airline Management System</div> -->
+    <div class="image-container">
+        <img src="assets/image/4k-plane.jpg" alt="flight" class="background-image">
+        <div class="logo">Airline Management System</div>
+    </div>
+    <div class='home-default'>
+
+
+        <ul class="li">
+            <li class="list">
+                <div class="trip1">
+                    <label for="trip1"></label> <input type="radio" id="trip1" name="trip" value="one way"
+                        [(ngModel)]="trip">One Way
+                    <label for="trip2"></label> <input type="radio" id="trip2" name="trip" value='round trip'
+                        [(ngModel)]="trip">Round Trip
+                </div>
+            </li>
+            <li class="list">
+                <div class="search">
+                    <div class="input-container1">
+                        <div class="image2"><img src="assets/image/airplane.png"></div>
+                        <label for="fromcity"></label>
+                        <input type="text" id="fromcity" placeholder="From" [(ngModel)]="fromcity">
+                    </div>
+                </div>
+            </li>
+
+            <li class="list">
+                <div class="search">
+                    <div class="input-container2">
+                        <div class="image1"><img src="assets/image/airplane.png"></div>
+                        <label for="tocity"></label>
+                        <input type="text" id="tocity" placeholder="To" [(ngModel)]="tocity">
+                    </div>
+                </div>
+            </li>
+
+            <li class="list">
+                <div class="search1">
+                    <label for="datepicker"></label>
+                    <input type="date" id="datepicker" class="da" placeholder="select the date" [(ngModel)]="date">
+                </div>
+            </li>
+            <li class="list">
+                <div class="search1">
+                    <div class="dis">
+                        {{disMsg}}
+                    </div>
+                    <button id="btn2" (click)="search()">search</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- <div class="output">
+    <table class="out" style="width: 100%;">
+<thead>
+    <tr style="height: 50px;"> 
+        <th>  city_code</th>
+        <th>city_name</th>
+        <th>country</th>
+        <th>minutes_from_utc</th>
+</tr></thead>
+<tbody>
+    @for (item of valu; track $index) {
+        <tr style="height: 50px;">
+            <td>{{item.cityCode}}</td>
+            <td>{{item.cityName}}</td>
+            <td>{{item.country}}</td>
+            <td>{{item.minutesFromUtc}}</td>
+        </tr>
+    }
+</tbody>
+
+        
+    </table>
+</div> -->
+</div>
+<!-- <app-out
+[fromCity]="fromcity" 
+[toCity]="tocity" 
+*ngIf="searchTriggered"></app-out> -->

@@ -1,0 +1,29 @@
+<div class="output">
+    <table class="out" style="width: 100%;">
+<thead>
+    <tr style="height: 50px;"> 
+        <th>  flightNo</th>
+        <th>from</th>
+        <th>to</th>
+        <th>arrivalTime</th>
+        <th>departureTime</th>
+        <th>durationMinutes</th>
+        <th>status</th>
+</tr></thead>
+<tbody>
+    @for (item of valu; track $index) {
+        <tr style="height: 50px;">
+            <td>{{item.flight}}</td>
+            <td>{{item.fromCity}}</td>
+            <td>{{item.toCity}}</td>
+            <td>{{item.arrivalTime}}</td>
+            <td>{{item.departureTime}}</td>
+            <td>{{item.durationMinutes}}</td>
+            <td>{{item.status}}</td>
+        </tr>
+    }
+</tbody>
+
+        
+    </table>
+</div>

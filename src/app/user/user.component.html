@@ -1,0 +1,40 @@
+
+
+
+  
+<div class="login-Container"> 
+  <!-- <header >
+    <nav>
+      <ul class="list">
+      <li><a routerLink="/home">Home</a></li> 
+      <li><a  routerLink="/user">User</a></li>
+        <li><a routerLink="/admin"> Admin</a></li>
+        <li><a routerLink="/support">Support</a></li>
+      
+    </ul>
+    </nav></header>  -->
+    <div class="login">User login !</div>
+    <div class="login-form">
+      <div class="form-group" >
+        <label for="username" >UserName</label><br>
+        <input type="text"  id='username'name="uname" class="form-control" [(ngModel)]="username"/>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label><br>
+        <input type="password" id="password"name="password" class="form-control" [(ngModel)]="password"/>
+      </div>
+     <div>
+      <div class="error">{{errorMsg}}</div>
+      <button class="btn1" (click)="login()">login</button>
+      <div class="register"> 
+        New User ? 
+        <a  id="regi"routerLink="">Register</a> Here
+
+      </div>
+
+
+    </div> 
+    </div>
+    </div>
+
+

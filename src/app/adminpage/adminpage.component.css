@@ -1,0 +1,108 @@
+*{
+margin: 0;
+padding: 0;
+}
+.page{
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;  
+}
+.flight{
+    
+    height:150px;
+    width:500px;
+    border: 2px solid rgb(179, 174, 174);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 174, 174);
+    margin-bottom: 10px;
+
+}
+.city{
+    
+    height: 150px;
+    width: 500px;
+    border: 2px solid rgb(179, 174, 174);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 174, 174);
+
+}
+.schedule{
+   
+    height: 150px;
+    width: 500px;
+    border: 2px solid rgb(179, 174, 174);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 174, 174);
+    margin-right: 10px;
+
+}
+.history{
+    
+    height: 150px;
+    width: 500px;
+    border: 2px solid rgb(179, 174, 174);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color:rgb(179, 174, 174);
+
+}
+.first{
+    display: flex;
+    align-items: center;
+    
+}
+.second{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+.marquee {
+    height: 50px;
+    width: 100%;  
+    overflow: hidden;  
+    white-space: nowrap;  
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: red;
+    margin-bottom: 0px;
+  }
+  
+  .marquee p {
+    display: inline-block;
+    padding-left: 100%;  
+    animation: marquee 10s linear infinite;  
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);  
+    }
+    100% {
+      transform: translateX(-100%);  
+    }
+  }
+
+marquee{
+    font-size: 25px;
+    color: red;
+}

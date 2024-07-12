@@ -1,0 +1,22 @@
+<label for="fromCity">
+<input type="text" id="fromCity" placeholder="from" [(ngModel)]="fromCity">
+</label>
+<label for="toCity">
+    <input type="text" id="toCity" placeholder="to" [(ngModel)]="toCity">
+</label>
+<label for="flightNo">
+    <input type="text" id="flightNo" placeholder="No" [(ngModel)]="flightNo">
+</label>
+<label for="durationMinutes">
+    <input type="number" id="durationMinutes" placeholder="minutes" [(ngModel)]="durationMinutes">
+    </label>
+<label for="arrivalTime">
+        <input type="time" id="arrivalTime" placeholder="arrival" [(ngModel)]="arrivalTime">
+        </label>
+<label for="departureTime">
+            <input type="time" id="departureTime" placeholder="departure" [(ngModel)]="departureTime">
+            </label>
+<label for="aircraft">
+                <input type="text" id="aircraft" placeholder="aircraft" [(ngModel)]="aircraft">
+                </label>
+<button (click)="submit()">submit</button>

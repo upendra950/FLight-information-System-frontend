@@ -1,0 +1,98 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.list{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+}
+
+.logo{
+    margin-top: 30px;
+    font-size: 60px;
+    font-family: sans-serif;
+    display: flex;
+   justify-content: center;
+    letter-spacing: 1px;
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+    background-color:rgb(244, 73, 35);
+    align-content: center;
+    color: white;
+}
+nav ul li {
+    margin-right: 100px; 
+}
+
+nav ul li:last-child {
+    margin-right: 10px; 
+}
+
+a,button:hover{
+    cursor: pointer;
+} 
+div.login-form{
+    height: 260px;
+    width: 600px;
+    border: 2px solid rgb(179, 174, 174);
+    background-color:white;
+    border-radius: 20px;
+    /* box-shadow: 3px 3px 3px 3px rgb(119, 115, 115); */
+    font-size: 20px;
+    margin-left: 520px;
+    margin-top: 10px;
+    padding-left: 5%;
+    padding-top: 30px;
+    font-weight: bold;
+   
+    
+}
+input[type='text'],
+input[type='password']{
+    width: 80%; /* Increased width */
+    height: 30px; /* Increased height */
+    padding: 10px; /* Added padding */
+    font-size: 18px; 
+    border-radius: 10px;
+    border: 2px solid rgb(179, 174, 174);
+    
+}
+.btn1{
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    background-color:rgb(244, 73, 35);
+    box-shadow: none;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.error{
+   color: red;
+}
+#regi{
+    color: rgb(244, 73, 35);
+}
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.login{
+    margin-top: 10px;
+    font-size: 60px;
+    font-family: sans-serif;
+    display: flex;
+   justify-content: center;
+    letter-spacing: 1px;
+}

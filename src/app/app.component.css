@@ -1,0 +1,67 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+nav{
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+    background-color:rgb(244, 73, 35);
+    align-content: center;
+    color: white;
+    width: 100%;
+}
+nav ul li {
+    margin-right: 100px; 
+}
+
+nav ul li:last-child {
+    margin-right: 10px; 
+}
+
+a,button:hover{
+    cursor: pointer;
+}
+.list1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+  #flight{
+    
+    color: white;
+    font-size: 30px;
+    padding-right: 1080px;
+}
+/* img{
+    height: 380px;
+    width: 100%;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+
+  .logo {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem; 
+    color: white; 
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } */
